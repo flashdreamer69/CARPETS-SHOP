@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: bisque;
+}
+
+h1 {
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+h2 {
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+h3 {
+   font-size: 1.4rem;
+   font-weight: 800;
+}
+
+h4 {
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
+h5 {
+   font-size: 1rem;
+   font-weight: 400;
+   color: #1d1d1d;
+}
+
+
+.btn {
+   border:none;
+   text-decoration: none;
+   outline: none;
+   padding: 13px 30px;
+   background-color: brown;
+   color: white;
+   font-size: 1.1rem;
+}
+
+.navbar {
+   font-size: 20px;
+   top: 0;
+   left: 0;
+   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+   display: block;
+   color:white !important;
+    padding: 12px 21px;
+    border: 2px solid yellow;
+    position: relative;
+    font-weight: bold;
+}
+
+.navbar-brand::after {
+   position: absolute;
+    content: 'lab';
+    text-transform: uppercase;
+    font-size: 18px;
+    top: 39px;
+    left: 30px;
+    background-color: burlywood;
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   padding: 0 20px;
+   color: white;
+   transition: 0.3s;
+   }
+
+   .navbar-nav .nav-item:nth-child(3),
+   .navbar-nav .nav-item:nth-child(4) {
+      color: white;
+   }
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover {
+   color:coral;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color:darksalmon;
+}
+
+.navbar i {
+   font-size: 1.5rem;
+   padding: 0 5px;
+   cursor: pointer;
+   font-weight: 500;
+   transition: 0.3s;
+}
+
+   .nav-item i {
+      color: white;
+   }
+
+   #navbarSupportedContent > ul{
+      margin: 1rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+
+   .nav-link {
+      padding: 20px !important;
+   }
+
+   .nav-link:hover {
+      background-color: darkgreen;
+   }
+
+   #bar {
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 5px;
+      color: black;
+      cursor: pointer;
+   }
+
+   #home {
+      width: 100%;
+      height: 100vh;
+      background: url(img/pexels-pixabay-276724.jpg)center no-repeat;
+      background-size: cover;
+      display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   }
+
+   #home h1 {
+      max-width: 700px;
+   }
+
+   #home p {
+      margin: 2rem 0;
+      font-size: 1.3rem;
+      font-weight: 700;
+   }
+
+   #home a:hover {
+      background-color: white;
+   }
+
+   .brands {
+      width: 100%;
+      min-height: 500px;
+      background: url(img/brand-bg.jpg) center no-repeat;
+      background-size: cover;
+   }
+
+   .brands h2 {
+      color:white;
+      margin: 10px 0;
+   }
+
+   .features i {
+      font-size: 2rem;
+      color: red;
+   }
+
+   .about .about-box {
+   width: auto !important;
+   height: 100%;
+   overflow: hidden;
+   border: 1px solid black;
+   text-align: center;
+   cursor: pointer;
+   padding: 15px;
+   background-color: #f5f5f5;
+   object-fit: cover;
+   }
+
+   .about-box img {
+      margin-bottom: 10px;
+   }
+
+   .about h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+   }
+
+   .about p {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 50px 0;
+   }
+
+   .catalog-inner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+      gap: 1.2rem;
+   }
+
+   .catalog-box p {
+      font-size: 1.5rem;
+      color: black;
+      text-align: center;
+      margin: 20px 0;
+   }
+
+   .catalog-box:hover {
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+      padding: 10px;
+   }
+
+   .footer {
+      background-color: blue;
+      margin-top: 50px;
+   }
+
+   .footer-inner {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 1rem;
+   }
+
+   
+
+   .logo-footer {
+      display: inline-block;
+   }
+
+   .social {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   .social a {
+      margin-right: 20px;
+      color: white !important;
+   }
+
+   .social a i {
+      font-size: 2rem;
+   }
+
+   .social a:hover {
+      background-color: black;
+   }
+
+   .footer-box p {
+      font-size: 1rem;
+      color: white;
+   }
+
+   .icon-phone {
+      color: white;
+      display: block;
+      margin-top: 20px;
+   }
+
+   .icon-phone:hover {
+      color: red;
+   }
+
+
+
+
+
+
+
+
+
+   @media (max-width: 800px) {
+      .footer-inner {
+         grid-template-columns: repeat(1, 1fr);
+      }
+   }

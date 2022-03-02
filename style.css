@@ -278,8 +278,91 @@ h5 {
       color: red;
    }
 
+   .vinil {
+      padding: 200px 0 100px 0;
+   }
 
+   .product {
+      position: relative;
+      overflow: hidden;
+      margin: 10px;
+      height: 100%;
+      cursor: pointer;
+   }
 
+   .info {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      transform: translateY(100%);
+   }
+
+   .product img {
+      margin-bottom: 20px;
+      width: 300px;
+      height: auto;
+   }
+
+   .product p {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+   }
+   
+
+   .more {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .more a {
+      background-color: blue;
+      padding: 5px;
+   }
+
+   .more a i {
+      color: white;
+      font-size: 1.8rem;
+   }
+
+   .product:hover .info {
+      transform: translateY(-100px);
+      transition: .3s;
+   }
+
+   .details {
+      padding: 150px 50px !important;
+      background-color: azure;
+   }
+
+   .btn-more {
+      display: flex;
+      margin: 20px 0;
+      flex-wrap: wrap;
+   }
+
+   .more-btn {
+      border: none;
+      padding: 10px 20px;
+      background-color: cadetblue;
+      color: white;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+   }
+
+   .description {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .description a {
+      font-size: 1.5rem;
+      color:black;
+   }
 
 
 
